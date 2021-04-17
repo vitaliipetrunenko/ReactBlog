@@ -1,0 +1,36 @@
+.newPostArea{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+    textarea{
+        border-radius: 15px;
+        height: 5ch;
+        padding-left: 10px;;
+        width:80%;
+        resize: none;
+    }
+    :first-child{
+        height:2ch;
+    }
+    :last-child{
+        background-color:white;
+        border-radius: 15px;
+        width:50%;
+        height: 4ch;
+        
+    }
+}
+.Post{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    max-height: 100vh; 
+    background-color:whitesmoke;
+    border-radius:5px;
+}

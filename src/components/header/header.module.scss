@@ -1,0 +1,47 @@
+.Header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: auto;
+    align-items: center;
+    background-color:#4267B2;
+    
+    @media (max-width: 699px) {
+
+        justify-content: space-between;
+    
+    }
+ 
+padding: 5px;
+
+
+    grid-area: header;
+
+    .img{
+        justify-self: flex-start;
+         
+        width: 40px;
+        height:40px;
+        background-color:white;
+       
+    }
+    .loginBlock{
+        flex-grow: 1;
+        padding-right: 15px;
+        
+    
+        .NavLink{
+            float: right;
+            padding: 5px;
+            border: 1px solid white;
+            border-radius:15px;
+            background-color:transparent;
+            text-decoration: none;
+            color:white;
+
+        }
+    }
+}
+
+

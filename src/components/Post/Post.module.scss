@@ -1,0 +1,53 @@
+.Post{
+width:90%;
+display: flex;
+flex-direction: column;
+padding: 2%;
+border-width: 1px 0px 1px 0px;
+border-style: solid;
+border-color: rgb(228, 228, 228);
+max-height: 100vh; 
+background-color: white;
+img{
+    object-fit: cover;
+    
+}
+}
+.Post__Header{
+    display: flex;
+
+}
+.avatar{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 1%;
+    
+    
+}
+.postText{
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+.postFooter{
+    display: flex;
+    justify-content: space-between;
+    button{
+        border-radius: 15px;
+        background-color: white;
+        padding:10px;
+        
+    }
+a{
+    min-width: 25%;
+    button{
+        min-width: 85%;
+    }
+}
+}
+hr{
+    width:100%;
+}

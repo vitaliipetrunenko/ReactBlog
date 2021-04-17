@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,OAAO,EAAC,IAAI;EACZ,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,UAAU;EAC3B,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAC,UAAU;CAC9B",
+    "sources": [
+        "NewsFeed.module.scss"
+    ],
+    "names": [],
+    "file": "NewsFeed.module.css"
+}

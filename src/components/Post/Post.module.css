@@ -1,0 +1,71 @@
+.Post {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2%;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  max-height: 100vh;
+  background-color: white;
+}
+
+.Post img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Post__Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1%;
+}
+
+.postText {
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  word-wrap: break-word;
+}
+
+.postFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.postFooter button {
+  border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+.postFooter a {
+  min-width: 25%;
+}
+
+.postFooter a button {
+  min-width: 85%;
+}
+
+hr {
+  width: 100%;
+}
+/*# sourceMappingURL=Post.module.css.map */

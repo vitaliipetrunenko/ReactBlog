@@ -1,0 +1,52 @@
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4267B2;
+  padding: 5px;
+  grid-area: header;
+}
+
+@media (max-width: 699px) {
+  .Header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.Header .img {
+  justify-self: flex-start;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+.Header .loginBlock {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-right: 15px;
+}
+
+.Header .loginBlock .NavLink {
+  float: right;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=header.module.css.map */

@@ -1,0 +1,53 @@
+.Header__button_hover,.Header__button_unhover{
+    background-color: #4267B2;
+    border-width: 0.1px;
+    border-radius: 25px;
+    display: block;
+    margin-left: 1vw;
+    min-width: 91px;
+    border-color: white;
+    border-style: solid;
+    color:white;
+    outline-style: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+
+}
+@media (max-width: 699px) {
+
+    
+
+    .Header__button_hover,.Header__button_unhover{
+        min-width: fit-content;
+        border-radius: 15px;
+        padding: 3px;
+        word-wrap:break-word;
+        text-overflow: ellipsis;
+        line-break: strict;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: x-small;
+    }
+
+}
+
+
+.Header__buttonPlatform:hover .Header__button_unhover,
+.Header__buttonPlatform .Header__button_hover{
+   display:none;
+    
+}
+.Header__buttonPlatform:hover .Header__button_hover{
+    display: block;
+    background-color: white;
+    border-color: #4267B2;
+    color: #4267B2;
+    transform: scale(1.05);
+    box-shadow: 1px 1px black;
+
+    
+}
+.Header__button_hover .inactive, .Header__button_unhover .inactive{
+    display: none;  
+}
